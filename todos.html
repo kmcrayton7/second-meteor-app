@@ -5,8 +5,10 @@
     {{> todos}}
 </body>
 <template name="todoItem">
-    <li>{{name}}</li>
+    <li>
+        <input type="text" value="{{name}}" name="todoItem">
     [<a href="#" class="delete-todo">Delete</a>]
+    </li>
 </template>
 
 <template name="todos">
