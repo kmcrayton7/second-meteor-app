@@ -19,6 +19,7 @@
         <li>{{>todoItem}}</li>
     {{/each}}
     </ul>
+    {{> todosCount}}
 </template>
 
 <template name="addTodo">
@@ -26,4 +27,10 @@
         Create a task:
         <input type="text" placeholder="Type a task here..." name="todoName">
     </form>
+</template>
+
+<template name="todosCount">
+    {{#if totalTodos}}
+         <p>You have completed {{completedTodos}} out of {{totalTodos}} tasks.</p>
+    {{/if}}
 </template>
