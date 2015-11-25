@@ -4,6 +4,17 @@ Template.todos.helpers({
     }
 });
 
+Template.todoItem.helpers({
+    'checked': function(){
+        var isCompleted = this.completed;
+        if(isCompleted){
+            return "checked";
+        } else {
+            return "";
+        }
+    }
+});
+
 Template.addTodo.events({
    'submit form': function(event){
        event.preventDefault();
@@ -33,5 +44,16 @@ Template.todoItem.events({
             var documentId = this._id;
             var todoItem = $(event.target).val();
             Todos.update({ _id: documentId}, {$set: {name: todoItem}});
+    },
+    "change [type=checkbox]": function(){
+        var documentId = this._id;
+        var isCompleted = this.completed;
+        if(isCompleted){
+            Todos.update({ _id: documentId}, {$set: {completed: false}});
+            console.log("Task marked as imcomplete.");
+        } else {
+            Todos.update({_id: documentId}, {$set: {completed: true}});
+            console.log("Task marked as complete");
+        }
     }
 });
