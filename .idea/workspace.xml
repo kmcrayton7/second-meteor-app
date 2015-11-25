@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80ef4bd9-2e31-406b-894d-699390432441" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/client.js" afterPath="$PROJECT_DIR$/client/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos.html" afterPath="$PROJECT_DIR$/todos.html" />
     </list>
     <ignored path="todos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -273,7 +271,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448461508640</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;Add task counting function&quot;">
+      <created>1448461981765</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1448461981765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -324,7 +328,8 @@
     <MESSAGE value="&quot;Add user basic interface with CSS&quot;" />
     <MESSAGE value="&quot;Add keyboard events&quot;" />
     <MESSAGE value="&quot;Add checkbox function for completed tasks&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add checkbox function for completed tasks&quot;" />
+    <MESSAGE value="&quot;Add task counting function&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add task counting function&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
