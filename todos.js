@@ -14,3 +14,8 @@ Router.route('/', {
     template: 'home'
 });
 
+Router.route('/list/:_id', {
+    data: function(){
+
+    }
+});
