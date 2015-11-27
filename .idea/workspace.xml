@@ -4,7 +4,6 @@
     <list default="true" id="80ef4bd9-2e31-406b-894d-699390432441" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/client.js" afterPath="$PROJECT_DIR$/client/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos.html" afterPath="$PROJECT_DIR$/todos.html" />
     </list>
     <ignored path="todos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53571427">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.8035714">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -327,7 +326,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448636926194</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&quot;Attach list item _id's to specfic lists&quot;">
+      <created>1448637733415</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1448637733416</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -386,7 +391,8 @@
     <MESSAGE value="&quot;Add ability for users to create lists&quot;" />
     <MESSAGE value="&quot;Set route parameters&quot;" />
     <MESSAGE value="&quot;Add ability to retrieve data when user navigates to list pages&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add ability to retrieve data when user navigates to list pages&quot;" />
+    <MESSAGE value="&quot;Attach list item _id's to specfic lists&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Attach list item _id's to specfic lists&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -450,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53571427">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.8035714">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding />
         </state>
       </provider>
