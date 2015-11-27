@@ -7,10 +7,10 @@
 </template>
 
 <template name="todos">
-    {{>addTodo}}
+    {{> addTodo}}
     <ul>
     {{#each todo}}
-        <li>{{>todoItem}}</li>
+        <li>{{> todoItem}}</li>
     {{/each}}
     </ul>
     {{> todosCount}}
@@ -76,4 +76,5 @@
 
 <template name="listPage">
     <h2>Tasks: {{name}}</h2>
+    {{> todos}}
 </template>

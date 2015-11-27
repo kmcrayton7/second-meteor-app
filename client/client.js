@@ -1,6 +1,7 @@
 Template.todos.helpers({
     'todo': function(){
-        return Todos.find({}, {sort: {createdAt: -1}});
+        var currentList = this._id;
+        return Todos.find({listId: currentList}, {sort: {createdAt: -1}});
     }
 });
 
@@ -34,10 +35,12 @@ Template.addTodo.events({
    'submit form': function(event){
        event.preventDefault();
        var todoName = $('[name="todoName"]').val();
+       var currentList = this._id;
        Todos.insert({
            name: todoName,
            completed: false,
-           createdAt: new Date()
+           createdAt: new Date(),
+           listId: currentList
        });
        $("[name='todoName']").val("");
    }
